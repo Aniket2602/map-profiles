@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# MapProfiles with React, Redux & Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
 
-## Available Scripts
+This is a Profile Management System (MapProfiles) built using React, Redux, Firebase, and Firebase Firestore. The app allows users to view, search profiles and admin to create, edit, and delete profiles. Profiles are stored in Firebase Firestore, and users can filter profiles by name through a search functionality.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Profile Listing** : Display all profiles in a grid format with profile images and basic details.
+- **Search Profiles** : Filter profiles by name using the search bar.
+- **View Profile Details** : Click on a profile to view detailed information.
+- **Add Profile** : Option for logged-in admin to add profile in existing profiles.
+- **Edit Profile** : Option for logged-in admin to edit existing profiles.
+- **Delete Profile** : Option for logged-in admin to delete profiles.
+- **Map Integration** : Profiles with location data are displayed on a map.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend** : React.js
+- **State Management** : Redux
+- **Backend** : Firebase Firestore (NoSQL Database)
+- **Map Integration** : Google Map
+- **Styling** : Custom CSS
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14.x or above)
+- npm (v6.x or above)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/your-username/profile-management-system.git
+```
 
-### `npm run eject`
+2. **Navigate to the project directory**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd profile-management-system
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Install dependencies**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Set up Firebase**:
 
-## Learn More
+- Create a Firebase project in the Firebase Console.
+- Create a new Firestore database in Firebase.
+- Set up Firebase Authentication and Firestore as needed.
+- Add Firebase configuration to your project by creating a **firebaseInit.js** file and adding your Firebase credentials.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<hr />
 
-### Code Splitting
+### -----------------------| Normal User View Screenshot |-----------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<hr />
 
-### Analyzing the Bundle Size
+Before Sign In
+![Home Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Home%20Page%201.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+After Sign In
+![Home Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Home%20Page%202.png?raw=true)
 
-### Making a Progressive Web App
+### Sign-Up Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![SignUp Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/SignUp%20Page.png?raw=true)
 
-### Advanced Configuration
+### Sign-In Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![SignIn Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/SignIn%20Page.png?raw=true)
 
-### Deployment
+### Cart Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Cart Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Cart%20Page.png?raw=true)
 
-### `npm run build` fails to minify
+### Order Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Order Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Order%20Page.png?raw=true)
+
+<br>
+<hr />
+
+### -----------------------| Admin View Screenshot |-----------------------
+
+<hr />
+
+## Author
+
+[@Aniket2602](https://github.com/Aniket2602)
+<br>
+<br>
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniket-sangale/)
