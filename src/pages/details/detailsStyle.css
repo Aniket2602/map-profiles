@@ -1,0 +1,197 @@
+/* -----------------------------|Details Container|------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+/* Wrapper for the entire form, with centering, styling, and shadow for a card-like effect */
+.form-wrapper {
+  width: 50rem;
+  margin: 3rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "M PLUS Rounded 1c", serif;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-heading {
+  font-size: 1.8rem;
+}
+
+hr {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.form-container {
+  width: 95%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans", serif;
+}
+
+/* Wrapper for individual form fields */
+.form-field-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  font-family: "Nunito Sans", serif;
+}
+
+input,
+textarea {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: "Nunito Sans", serif;
+}
+
+/* Specific width adjustments for form fields */
+#name {
+  width: 92%;
+}
+
+#age {
+  width: 9rem;
+  margin-right: 1rem;
+}
+
+#email {
+  width: 27rem;
+}
+
+#contact {
+  width: 13rem;
+  margin-right: 1.5rem;
+}
+
+#dob {
+  width: 15rem;
+}
+
+#marital-status {
+  margin-right: 1rem;
+}
+
+#location {
+  width: 15.5rem;
+}
+
+#longitude,
+#latitude {
+  width: 7rem;
+}
+
+#profile-img {
+  width: 84%;
+}
+
+.achievements-wrapper,
+.description-wrapper {
+  align-items: flex-start;
+}
+
+.description-wrapper textarea {
+  width: 87%;
+}
+
+.achievements-wrapper textarea {
+  width: 84%;
+}
+
+#marital-status,
+#gender {
+  font-size: 0.9rem;
+  width: 15rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-family: "Nunito Sans", serif;
+}
+
+#hobbies {
+  width: 90%;
+}
+
+/* General button styling */
+.btn-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  width: 47%;
+  margin: 1rem auto 0rem;
+  padding: 0.4rem 1rem;
+  font-size: 1.1rem;
+  font-family: "Inter", serif;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.add-btn {
+  background-color: #50c878;
+  transition: 0.3s ease-in-out;
+}
+
+.add-btn:hover {
+  background-color: #3a9e6a;
+}
+
+.reset-btn {
+  background-color: #a0d2f7;
+  transition: 0.3s ease-in-out;
+}
+
+.reset-btn:hover {
+  background-color: #4a90e2;
+}
+
+/* -----------------------------|Media Queries|------------------------------ */
+/* -------------------------------------------------------------------------- */
+
+/* Responsive styles for different screen sizes */
+@media screen and (max-width: 900px) {
+  .form-wrapper input,
+  .form-wrapper label,
+  .form-wrapper textarea {
+    display: inline-block;
+    margin: 0;
+  }
+
+  #name,
+  #age,
+  #email,
+  #contact,
+  #dob,
+  #marital-status,
+  #location,
+  #longitude,
+  #latitude,
+  #profile-img {
+    display: inline-block;
+    width: 90%;
+  }
+
+  #hobbies .form-field-wrapper {
+    flex-direction: column;
+  }
+
+  .form-wrapper {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .form-wrapper {
+    margin: -5rem 0rem;
+    transform: scale(0.6);
+  }
+}

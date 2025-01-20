@@ -1,0 +1,136 @@
+/* -----------------------------|ProfileInfo Component|------------------------------ */
+/* ---------------------------------------------------------------------------------- */
+
+/* Container for the entire profile card, centered on the screen */
+.info-container {
+  width: 100%;
+  height: 39.5rem;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito Sans", serif;
+}
+
+/* Profile card styling - flexbox layout with padding and box shadow */
+.profile-card {
+  width: 85%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+  padding: 1rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.profileInfo-map-wrapper {
+  min-width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.profileInfo-info-container {
+  min-width: 48%;
+  display: inline-block;
+}
+
+.profileInfo-info-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profileInfo-img {
+  width: 10rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+}
+
+.profileInfo-img img {
+  width: auto;
+  height: 100%;
+}
+
+.short-intro {
+  width: 73%;
+}
+
+.short-intro h3 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  font-family: "M PLUS Rounded 1c", serif;
+}
+
+.profileInfo-info-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.profileInfo-info-main ul li {
+  width: auto;
+  list-style: none;
+  display: inline-block;
+  border: 1px solid #666666;
+  padding: 0.5rem 1.3rem;
+  margin: 0.5rem;
+  border-radius: 0.6rem;
+}
+
+/* -----------------------------|Media Queries|------------------------------ */
+/* -------------------------------------------------------------------------- */
+
+/* Responsive styles for different screen sizes */
+@media screen and (max-width: 1350px) {
+  .profile-card {
+    position: relative;
+    flex-direction: column;
+    overflow-y: scroll;
+    justify-content: center;
+  }
+
+  .cross-logo-img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .profileInfo-map-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .profile-card {
+    text-align: center;
+    padding-top: 10rem;
+  }
+
+  .profileInfo-map-wrapper {
+    display: none;
+  }
+
+  .profileInfo-img {
+    width: 5rem;
+    height: 8rem;
+  }
+}

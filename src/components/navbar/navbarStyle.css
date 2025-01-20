@@ -1,0 +1,134 @@
+/* -----------------------------|NavBar Component|------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  color: #d4edf4;
+  background-color: #2a2e30;
+}
+
+.nav-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper {
+  width: 40px;
+  height: 45px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.img-wrapper img {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-heading {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 25px;
+  font-family: "Playwrite DE Grund", serif;
+}
+
+.nav-list-conatiner ul li {
+  list-style: none;
+  margin-left: 50px;
+  font-size: 17px;
+  display: inline-block;
+  font-family: "Fredoka", serif;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link.active {
+  color: #7fffd4;
+}
+
+.wel-msg {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-family: "Fredoka", serif;
+}
+
+/* -----------------------------|Media Queries|------------------------------ */
+/* -------------------------------------------------------------------------- */
+
+/* Responsive styles for different screen sizes */
+@media screen and (max-width: 1050px) {
+  .nav-container {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .nav-logo-container {
+    margin-left: 5px;
+  }
+
+  .img-wrapper {
+    width: 35px;
+    height: 40px;
+  }
+
+  .nav-heading {
+    font-size: 20px;
+  }
+
+  .nav-list-conatiner ul li {
+    margin-left: 40px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav-container {
+    padding: 0.6rem 1rem;
+  }
+
+  .nav-logo-container {
+    margin-left: 5px;
+  }
+
+  .img-wrapper {
+    width: 30px;
+    height: 35px;
+  }
+
+  .nav-heading {
+    font-size: 15px;
+  }
+
+  .nav-list-conatiner ul li {
+    margin-left: 25x;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav-container {
+    padding: 0.4rem 0.5rem;
+  }
+
+  .nav-logo-container {
+    margin-left: 5px;
+  }
+
+  .nav-heading {
+    font-size: 15px;
+  }
+
+  .nav-list-conatiner ul li {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+}
