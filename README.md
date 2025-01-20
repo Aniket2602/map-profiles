@@ -59,9 +59,11 @@ npm install
 ## Screenshots
 
 <hr />
+<div align="center">
 
-### -----------------------| Normal User View Screenshot |-----------------------
+### Normal User View Screenshot
 
+</div>
 <hr />
 
 #### Home Page
@@ -82,9 +84,11 @@ npm install
 
 <br>
 <hr />
+<div align="center">
 
-### -----------------------| Admin View Screenshot |-----------------------
+### Admin View Screenshot
 
+</div>
 <hr />
 
 #### Sign-in Page
