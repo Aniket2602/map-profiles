@@ -64,27 +64,21 @@ npm install
 
 <hr />
 
-Before Sign In
-![Home Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Home%20Page%201.png?raw=true)
+#### Home Page
 
-After Sign In
-![Home Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Home%20Page%202.png?raw=true)
+![Home Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/user/Home%20Page.png?raw=true)
 
-### Sign-Up Page
+#### Profiles Page
 
-![SignUp Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/SignUp%20Page.png?raw=true)
+![Profiles Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/user/Profiles%20Page.png?raw=true)
 
-### Sign-In Page
+#### Map Integration in Profiles Page
 
-![SignIn Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/SignIn%20Page.png?raw=true)
+![Map Integration Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/user/Map%20Integration.png?raw=true)
 
-### Cart Page
+#### Details Page
 
-![Cart Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Cart%20Page.png?raw=true)
-
-### Order Page
-
-![Order Page Screenshot](https://github.com/Aniket2602/Buy-Busy-2/blob/master/screenshots/Order%20Page.png?raw=true)
+![Details Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/user/Details%20Page.png?raw=true)
 
 <br>
 <hr />
@@ -92,6 +86,30 @@ After Sign In
 ### -----------------------| Admin View Screenshot |-----------------------
 
 <hr />
+
+#### Sign-in Page
+
+![Sign-in Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/admin/Sign-in%20Page.png?raw=true)
+
+#### Toastify message
+
+![Toastify Message Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/admin/Toastify%20Message.png?raw=true)
+
+#### Home Page
+
+![Home Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/admin/Home%20Page.png?raw=true)
+
+#### Profiles Page
+
+![Profiles Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/admin/Profiles%20Page.png?raw=true)
+
+#### Add Profiles Page
+
+![Add Profiles Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/admin/Add%20Profile%20Page.png?raw=true)
+
+#### Update Page
+
+![Update Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/admin/Update%20Profile%20Page.png?raw=true)
 
 ## Author
 
