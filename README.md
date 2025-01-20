@@ -34,13 +34,13 @@ This is a Profile Management System (MapProfiles) built using React, Redux, Fire
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/your-username/profile-management-system.git
+git clone https://github.com/Aniket2602/map-profiles.git
 ```
 
 2. **Navigate to the project directory**:
 
 ```bash
-cd profile-management-system
+cd map-profiles
 ```
 
 3. **Install dependencies**:
