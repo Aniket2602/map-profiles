@@ -91,6 +91,12 @@ npm install
 </div>
 <hr />
 
+<div align="center">
+
+Note : - Some changes are shown in red circle
+
+</div>
+
 #### Sign-in Page
 
 ![Sign-in Page Screenshot](https://github.com/Aniket2602/map-profiles/blob/master/screenshots/admin/Sign-in%20Page.png?raw=true)
