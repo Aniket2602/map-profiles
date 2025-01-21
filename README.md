@@ -56,6 +56,11 @@ npm install
 - Set up Firebase Authentication and Firestore as needed.
 - Add Firebase configuration to your project by creating a **firebaseInit.js** file and adding your Firebase credentials.
 
+## Admin credentials for Sign-in:
+
+- **Email-id** : - johndoe123@gmail.com
+- **Password** : - johndoe123
+
 ## Screenshots
 
 <hr />
